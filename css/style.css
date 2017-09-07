@@ -1,6 +1,6 @@
 html, body {
-    height: 100%;
-    width: 99.7%;
+    height: 100% !important;
+    width: 100% !important;
 }
 
 .centered{
@@ -14,15 +14,23 @@ html, body {
 .no-margin{
 	margin: 0 !important;
 }
-
-.main {
+.web-title{
+	font-size: 1.5rem;
+	line-height: 40px;
+}
+.row{
+	width: 100% !important;
+}
+.container-fluid {
   display: flex;
   flex-direction: column;
   height: 100% !important;
   position: relative;
+  width: 100% !important;
 }
 .content {
   flex: 1 0 auto;
+  width: 100%;
 }
 .footer {
   flex: 0 0 auto;
@@ -37,13 +45,7 @@ html, body {
 a{
 	text-decoration: none;
 }
-.row-main{
-	height: 100%;
-}
-.side-bar{
-	border-right: 0.5px solid #ccc;
-	height: 100%;
-}
+
 
 .header-line{
 	background-color: black;
@@ -58,10 +60,63 @@ a{
 }
 
 .header-navigation-item{
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	padding: 0 15px;
+	color: #504D46;
+	line-height: 35px !important;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	display: block;
 }
 
+.header-navigation-item:hover{
+	-webkit-transform: translate(0, 5px);
+	-moz-transform: translate(0, 5px);
+	-o-transform: translate(0, 10px);
+	color: #504D46;
+	text-decoration: none;
+}
+
+
 .parallax-container {
-  height: 300px !important;
+    height: 300px !important;
+}
+
+.parallax {
+
+    min-height: 400px; 
+	width: 100% !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#img-parallax{
+	background-image: url("../images/img.jpg");
+}
+
+.img-line{
+	height: 5px;
+	background-color: black;
+}
+
+
+.main-about{
+	height: 700px;
+}
+.main-action{
+	height: 700px;
+}
+.main-portfolio{
+	height: 700px;
+} 
+.main-contacts{
+	height: 300px;
+}
+.content-item{
+	border-bottom: 1px solid black;
 }
