@@ -105,18 +105,19 @@ a{
 }
 
 
-.main-about{
+#main-about{
 	height: 700px;
 }
-.main-action{
+#main-action{
 	height: 700px;
 }
-.main-portfolio{
+#main-portfolio{
 	height: 700px;
 } 
-.main-contacts{
+#main-contacts{
 	height: 300px;
 }
 .content-item{
 	border-bottom: 1px solid black;
+	margin: 0;
 }
