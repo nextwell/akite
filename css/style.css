@@ -2,6 +2,9 @@ html, body {
     height: 100% !important;
     width: 100% !important;
 }
+body{
+	min-width: 1366px; /* Временно */
+}
 
 .centered{
 	text-align: center;
@@ -79,13 +82,9 @@ a{
 }
 
 
-.parallax-container {
-    height: 300px !important;
-}
-
 .parallax {
 
-    min-height: 400px; 
+    
 	width: 100% !important;
     background-attachment: fixed;
     background-position: center;
@@ -96,7 +95,20 @@ a{
 }
 
 #img-parallax{
+	min-height: 400px; 
 	background-image: url("../images/img.jpg");
+}
+#img-parallax-mac-up{
+	min-height: 250px;
+	background-image: url("../images/1.jpg");
+}
+#img-parallax-mac-up-2{
+	min-height: 250px;
+	background-image: url("../images/2.jpeg");
+}
+#img-parallax-mac-up-3{
+	min-height: 250px;
+	background-image: url("../images/3.jpg");
 }
 
 .img-line{
@@ -106,13 +118,13 @@ a{
 
 
 #main-about{
-	height: 700px;
+	height: 90vh;
 }
 #main-action{
-	height: 700px;
+	height: 100vh;
 }
 #main-portfolio{
-	height: 700px;
+	height: 100vh;
 } 
 #main-contacts{
 	height: 300px;
@@ -120,4 +132,10 @@ a{
 .content-item{
 	border-bottom: 1px solid black;
 	margin: 0;
+}
+
+#about-title{
+	font-size: 3rem;
+	line-height: 200px;
+	color: white;
 }
