@@ -2,9 +2,6 @@ html, body {
     height: 100% !important;
     width: 100% !important;
 }
-body{
-	min-width: 1366px; /* Временно */
-}
 
 .centered{
 	text-align: center;
@@ -94,13 +91,19 @@ a{
     border-bottom: 5px solid black;
 }
 
+@media screen and (max-width: 768px) { 
+    .parallax{
+		background-attachment: scroll;
+    }
+}
+
 #img-parallax-mac-up{
 	height: 175px;
 	background-image: url("https://uip.me/wp-content/uploads/2017/05/macbook.jpg");
 }
 #img-parallax-mac-up-2{
 	height: 250px;
-	background-image: url("../images/2.jpeg");
+	background-image: url("https://s.appleinsider.ru/2016/12/macbook-2.jpg");
 }
 #img-parallax-mac-up-3{
 	min-height: 250px;
@@ -115,24 +118,31 @@ a{
 
 #main-goods{
 	height: 88vh;
+	min-height: 825px;
 }
 #main-contacts{
 	height: 100vh;
+	min-height: 825px;
 }
 #main-reviews{
 	height: 100vh;
+	min-height: 900px;
 } 
 .content-item{
-	border-bottom: 1px solid black;
 	margin: 0;
 }
 
 #about-title{
+	font-family: 'Roboto', sans-serif;
 	font-size: 3rem;
-	
 	color: white;
 }
 
+.div-parallax-title{
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
 .card-btn{
 	width: 200px;
 }
@@ -165,3 +175,169 @@ a{
 	margin-top: 35px;
 }
 
+.card-comment{
+	border: 1px solid rgba(0,0,0,.125);
+	height: 500px;
+	border-radius: .25rem;
+	margin-top: 60px;
+}
+
+.form-group-card-name{
+	width: 80%;
+	margin: auto;
+}
+.form-group-card-comment{
+	width: 80%;
+	margin: auto;
+}
+
+.card-comment-block{
+	margin-top: 20px;
+}
+
+textarea{
+	resize: none;
+}
+
+button{
+	cursor: pointer;
+}
+
+.form-group-card-btn{
+	margin-top: 20px;
+	width: 200px;
+}
+
+.card-comment-description{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	line-height: 60px;
+}
+
+
+/* MAC WINDOW */
+.mac-window {
+  border: 1px solid rgb(195, 195, 195);
+  width: 400px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
+  text-align: left;
+  margin: 0 20px;
+}
+
+.mac-window {
+  height: 200px;
+  display: inline-block;
+}
+
+.mac-window .mac-header {
+  padding: 0 9px;
+  line-height: 30px;
+  padding: 2px 9px 0;
+}
+
+.mac-window .mac-header .mac-title {
+  font: 11px "Myriad Pro", "Arial";
+}
+.mac-window .mac-bullet {
+  height: 11px;
+  width: 11px;
+  display: inline-block;
+  background: #ccc;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.mac-window .mac-bullet-red {
+  background: #DF7065;
+}
+
+.mac-window .mac-bullet-yellow {
+  background: #E6BB46;
+}
+
+.mac-window .mac-bullet-green {
+  background: #5BCC8B;
+}
+.mac-browser .mac-header {
+  background: #E8E8E8;
+  border-radius: 4px 4px 0 0;
+  padding-bottom: 3px;
+}
+
+.mac-browser .mac-header .mac-title {
+  background: #fff;
+  display: inline-block;
+  width: 320px;
+  border-radius: 4px;
+  padding: 6px 14px 4px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.mac-browser .mac-header .mac-title .mac-scheme {
+  color: #7ED321;
+}
+
+.mac-browser .mac-body {
+  padding: 16px;
+  font: 13px "Lucida Grande", "Open Sans";
+}
+
+.mac-browser .mac-tweets {
+  margin: 0;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.mac-browser .mac-tweets li {
+  height: 27px;
+  line-height: 27px;
+  width: 350px;
+  vertical-align: middle;
+  color: #4B434D;
+  list-style-type: none;
+  margin-bottom: 14px;
+}
+.mac-body{
+	height: 150px;
+  overflow-y: auto;
+}
+
+.mac-browser .mac-tweets img {
+  width: 27px;
+  height: 27px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 10px;
+}
+.mac-title{
+	max-width: 320px;
+	overflow-x: auto;
+}
+.mac-browser .mac-tweet {
+  max-width: 280px;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mac-browser .mac-time {
+  color: #9B9B9B;
+  float: right;
+}
+
+.mac-browser .mac-new {
+  animation: drop 500ms;
+  -webkit-animation: drop 500ms;
+}
+
+/* */
+
+.mac-card{
+	margin-top: 10px;
+}

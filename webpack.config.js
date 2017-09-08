@@ -12,7 +12,7 @@ module.exports = {
 	      // ./public directory is being served 
 	      host: 'localhost',
 	      port: 3000,
-	      files: ['./dist/*.html', './dist/css/*css'],
+	      files: ['./dist/*.html', './dist/css/*css', './dist/js/*.js'],
 	      server: { baseDir: ['dist'] }
 	    })
 	]

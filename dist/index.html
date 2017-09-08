@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>123</title>
+	<title>Магазин</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/libs/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/style.css">
@@ -11,6 +12,7 @@
 	<script src="js/libs/popper.min.js"></script>
 	<script src="js/libs/bootstrap.min.js"></script>	
 	<script src="js/script.js"></script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -19,7 +21,7 @@
 			
 			<div class="row header-line no-margin no-padding">
 				<div class="col-12 centered">
-					<span class="web-title">Магазин</span>
+					<span class="web-title">Магазин макбуков</span>
 				</div>
 			</div>
 			<div class="row justify-content-center header-navigation">
@@ -51,7 +53,7 @@
 				<div class="col-12 no-padding">
 					<div class="row no-margin">
 						<div class="col-xl-12 no-padding">
-							<div class="parallax" id="img-parallax-mac-up">
+							<div class="parallax div-parallax-title" id="img-parallax-mac-up">
 								<p id="about-title" class="centered">Товары</p>
 							</div>
 						</div>
@@ -123,7 +125,7 @@
 				<div class="col-12 no-padding">
 					<div class="row no-margin">
 						<div class="col-xl-12 no-padding">
-							<div class="parallax" id="img-parallax-mac-up-3">
+							<div class="parallax div-parallax-title" id="img-parallax-mac-up-3">
 								<p id="about-title" class="centered">Наши контакты</p>
 							</div>
 						</div>
@@ -134,9 +136,80 @@
 				<div class="col-12 no-padding">
 					<div class="row no-margin">
 						<div class="col-xl-12 no-padding">
-							<div class="parallax" id="img-parallax-mac-up-2">
+							<div class="parallax div-parallax-title" id="img-parallax-mac-up-2">
 								<p id="about-title" class="centered">Отзывы</p>
 							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center card-comment-block">
+						<div class="col-xl-4 centered">
+							
+							
+							<div class="row mac-card">
+								<div class="col-12">
+									<div class="mac-window mac-browser">
+							          <div class="mac-header">
+							            <span class="mac-bullet mac-bullet-red"></span><span class="mac-bullet mac-bullet-yellow"></span><span class="mac-bullet mac-bullet-green"></span><span class="mac-title">Иван</span>
+							          </div>
+							          <div class="mac-body">
+							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti corporis suscipit magnam accusantium, cum dicta assumenda possimus nam, quod expedita nesciunt? Quas laudantium, ipsam laboriosam rem magni assumenda blanditiis, alias.</p>
+							          </div>
+							        </div>
+								</div>
+							</div>
+
+							<div class="row mac-card">
+								<div class="col-12">
+									<div class="mac-window mac-browser">
+							          <div class="mac-header">
+							            <span class="mac-bullet mac-bullet-red"></span><span class="mac-bullet mac-bullet-yellow"></span><span class="mac-bullet mac-bullet-green"></span><span class="mac-title">Александр</span>
+							          </div>
+							          <div class="mac-body">
+							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti corporis suscipit magnam accusantium, cum dicta assumenda possimus nam, quod expedita nesciunt? Quas laudantium, ipsam laboriosam rem magni assumenda blanditiis, alias.</p>
+							          </div>
+							        </div>
+								</div>
+							</div>
+
+							<div class="row mac-card">
+								<div class="col-12">
+									<div class="mac-window mac-browser">
+							          <div class="mac-header">
+							            <span class="mac-bullet mac-bullet-red"></span><span class="mac-bullet mac-bullet-yellow"></span><span class="mac-bullet mac-bullet-green"></span><span class="mac-title">Василий</span>
+							          </div>
+							          <div class="mac-body">
+							            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti corporis suscipit magnam accusantium, cum dicta assumenda possimus nam, quod expedita nesciunt? Quas laudantium, ipsam laboriosam rem magni assumenda blanditiis, alias.
+							            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti corporis suscipit magnam accusantium, cum dicta assumenda possimus nam, quod expedita nesciunt? Quas laudantium, ipsam laboriosam rem magni assumenda blanditiis, alias.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti corporis suscipit magnam accusantium, cum dicta assumenda possimus nam, quod expedita nesciunt? Quas laudantium, ipsam laboriosam rem magni assumenda blanditiis, alias.
+							            </p>
+							          </div>
+							        </div>
+								</div>
+							</div>
+
+
+
+
+
+
+						</div>
+						<div class="col-xl-3 no-padding card-comment">
+							<form>
+								<div class="form-group centered">
+									<p class="card-comment-description">Ваш отзыв</p>
+								</div>
+								<div class="form-group form-group-card-name">
+									<label for="comment-group-name">Ваше имя</label>
+									<input type="text" id="comment-group-name" name="comment-group-name" class="form-control">
+								</div>
+								<div class="form-group form-group-card-comment">
+									<label for="comment-group-comment">Ваш отзыв</label>
+									<textarea class="form-control noresize" name="comment-group-comment" id="comment-group-comment" cols="30" rows="10"></textarea>
+								</div>
+								<div class="form-group centered">
+									<button type="submit" class="btn btn-outline-primary form-group-card-btn">Отправить</button>
+								</div>
+								
+							</form>
 						</div>
 					</div> 
 				</div>
