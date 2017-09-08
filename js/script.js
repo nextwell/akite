@@ -1,6 +1,6 @@
 $(document).ready(() => {
 	console.log("loaded");
-	$("a").click(function (event) {
+	$(".header-navigation-item-action").click(function (event) {
         event.preventDefault();
         var id  = $(this).attr('href');
         var top = $(id).offset().top;

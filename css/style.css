@@ -94,16 +94,12 @@ a{
     border-bottom: 5px solid black;
 }
 
-#img-parallax{
-	min-height: 400px; 
-	background-image: url("../images/img.jpg");
-}
 #img-parallax-mac-up{
-	min-height: 250px;
-	background-image: url("../images/1.jpg");
+	height: 175px;
+	background-image: url("https://uip.me/wp-content/uploads/2017/05/macbook.jpg");
 }
 #img-parallax-mac-up-2{
-	min-height: 250px;
+	height: 250px;
 	background-image: url("../images/2.jpeg");
 }
 #img-parallax-mac-up-3{
@@ -117,18 +113,15 @@ a{
 }
 
 
-#main-about{
-	height: 90vh;
-}
-#main-action{
+#main-goods{
 	height: 100vh;
 }
-#main-portfolio{
+#main-contacts{
+	height: 100vh;
+}
+#main-reviews{
 	height: 100vh;
 } 
-#main-contacts{
-	height: 300px;
-}
 .content-item{
 	border-bottom: 1px solid black;
 	margin: 0;
@@ -136,6 +129,10 @@ a{
 
 #about-title{
 	font-size: 3rem;
-	line-height: 200px;
+	
 	color: white;
+}
+
+.card-btn{
+	width: 200px;
 }
