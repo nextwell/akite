@@ -114,7 +114,7 @@ a{
 
 
 #main-goods{
-	height: 100vh;
+	height: 88vh;
 }
 #main-contacts{
 	height: 100vh;
@@ -136,3 +136,32 @@ a{
 .card-btn{
 	width: 200px;
 }
+
+.card-price{
+	font-size: 1.4rem;
+	color: #F28B20;
+}
+
+.card:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+.card{
+	margin: auto;
+}
+
+.main-goods-content{
+	margin-top: 20px !important;
+}
+
+.goods-get-more{
+	font-size: 1.5rem;
+	cursor: pointer;
+	margin-top: auto;
+
+}
+
+.get-more-row{
+	margin-top: 35px;
+}
+
