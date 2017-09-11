@@ -3,6 +3,9 @@ html, body {
     width: 100% !important;
 }
 
+body{
+	min-width: 360px;
+}
 .centered{
 	text-align: center;
 }
@@ -102,11 +105,11 @@ a{
 	background-image: url("https://uip.me/wp-content/uploads/2017/05/macbook.jpg");
 }
 #img-parallax-mac-up-2{
-	height: 250px;
+	height: 175px;
 	background-image: url("https://s.appleinsider.ru/2016/12/macbook-2.jpg");
 }
 #img-parallax-mac-up-3{
-	min-height: 250px;
+	min-height: 175px;
 	background-image: url("../images/3.jpg");
 }
 
@@ -116,18 +119,7 @@ a{
 }
 
 
-#main-goods{
-	height: 88vh;
-	min-height: 825px;
-}
-#main-contacts{
-	height: 100vh;
-	min-height: 825px;
-}
-#main-reviews{
-	height: 100vh;
-	min-height: 900px;
-} 
+
 .content-item{
 	margin: 0;
 }
@@ -217,127 +209,202 @@ button{
 
 /* MAC WINDOW */
 .mac-window {
-  border: 1px solid rgb(195, 195, 195);
-  width: 400px;
-  border-radius: 4px;
-  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
-  -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
-  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
-  text-align: left;
-  margin: 0 20px;
+	border: 1px solid rgb(195, 195, 195);
+	width: 400px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
+	box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
+	text-align: left;
+	margin: 0 20px;
 }
 
 .mac-window {
-  height: 200px;
-  display: inline-block;
+	height: 200px;
+	display: inline-block;
 }
 
 .mac-window .mac-header {
-  padding: 0 9px;
-  line-height: 30px;
-  padding: 2px 9px 0;
+	padding: 0 9px;
+	line-height: 30px;
+	padding: 2px 9px 0;
 }
 
 .mac-window .mac-header .mac-title {
-  font: 11px "Myriad Pro", "Arial";
+    font: 11px "Myriad Pro", "Arial";
 }
 .mac-window .mac-bullet {
-  height: 11px;
-  width: 11px;
-  display: inline-block;
-  background: #ccc;
-  border-radius: 100%;
-  vertical-align: middle;
-  margin-right: 5px;
+	height: 11px;
+	width: 11px;
+	display: inline-block;
+	background: #ccc;
+	border-radius: 100%;
+	vertical-align: middle;
+	margin-right: 5px;
 }
 
 .mac-window .mac-bullet-red {
-  background: #DF7065;
+ 	background: #DF7065;
 }
 
 .mac-window .mac-bullet-yellow {
-  background: #E6BB46;
+  	background: #E6BB46;
 }
 
 .mac-window .mac-bullet-green {
-  background: #5BCC8B;
+  	background: #5BCC8B;
 }
 .mac-browser .mac-header {
-  background: #E8E8E8;
-  border-radius: 4px 4px 0 0;
-  padding-bottom: 3px;
+	background: #E8E8E8;
+	border-radius: 4px 4px 0 0;
+	padding-bottom: 3px;
 }
 
 .mac-browser .mac-header .mac-title {
-  background: #fff;
-  display: inline-block;
-  width: 320px;
-  border-radius: 4px;
-  padding: 6px 14px 4px;
-  margin-left: 10px;
-  vertical-align: middle;
+	background: #fff;
+	display: inline-block;
+	width: 320px;
+	border-radius: 4px;
+	padding: 6px 14px 4px;
+	margin-left: 10px;
+	vertical-align: middle;
 }
 
 .mac-browser .mac-header .mac-title .mac-scheme {
-  color: #7ED321;
+  	color: #7ED321;
 }
 
 .mac-browser .mac-body {
-  padding: 16px;
-  font: 13px "Lucida Grande", "Open Sans";
+	padding: 16px;
+	font: 13px "Lucida Grande", "Open Sans";
 }
 
-.mac-browser .mac-tweets {
-  margin: 0;
-  height: 150px;
-  overflow-y: auto;
-}
-
-.mac-browser .mac-tweets li {
-  height: 27px;
-  line-height: 27px;
-  width: 350px;
-  vertical-align: middle;
-  color: #4B434D;
-  list-style-type: none;
-  margin-bottom: 14px;
-}
 .mac-body{
-	height: 150px;
-  overflow-y: auto;
+	height: 162px;
+	overflow-y: auto;
 }
 
-.mac-browser .mac-tweets img {
-  width: 27px;
-  height: 27px;
-  border-radius: 100%;
-  float: left;
-  margin-right: 10px;
-}
+
 .mac-title{
 	max-width: 320px;
 	overflow-x: auto;
 }
-.mac-browser .mac-tweet {
-  max-width: 280px;
-  overflow: hidden;
-  display: inline-block;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
+
 
 .mac-browser .mac-time {
-  color: #9B9B9B;
-  float: right;
+	color: #9B9B9B;
+	float: right;
 }
 
-.mac-browser .mac-new {
-  animation: drop 500ms;
-  -webkit-animation: drop 500ms;
-}
 
 /* */
 
 .mac-card{
 	margin-top: 10px;
+}
+
+
+.main-contacts-content{
+	margin-top: 30px !important;
+}
+
+#main-contacts{
+	margin-top: 20px !important;
+	margin-bottom: 30px !important;
+}
+
+.card-contact-img-top{
+	max-height: 286px;
+}
+
+.contact-email{
+	margin-top: 20px;
+}
+
+.contact-email-value{
+	font-size: 0.9rem;
+	color: #868e96!important;
+}
+
+#main-reviews{
+	margin-bottom: 20px !important;
+}
+
+@media screen and (max-width: 500px) { 
+    .header-navigation-item{
+    	font-size: 1.1rem;
+    }
+}
+
+.card-goods{
+	width: 20rem;
+}
+
+@media screen and (max-width: 1350px) and (min-width: 856px){
+	.card-goods{
+		width: 17rem;
+	}
+}
+
+@media screen and (max-width: 856px){
+	.card-goods{
+		width: 15rem;
+	}
+}
+
+@media screen and (max-width: 575px){
+	.card-goods{
+		width: 19rem;
+	}
+}
+
+.card-goods{
+	margin-top: 10px;
+}
+
+.flex-centered-content{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-profile{
+	width: 17rem;
+}
+
+@media screen and (max-width: 1306px) and ( min-width: 767px ){
+	.card-profile{
+		width: 14rem;
+	}
+}
+
+@media screen and (max-width: 766px) and (min-width: 575px) {
+	.card-profile{
+		width: 12rem;
+	}
+}
+
+@media screen and (max-width: 574px){
+	.card-profile{
+		width: 17rem;
+	}
+}
+
+
+.card-profile{
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 439px){
+	.mac-window{
+		width: 100%;
+		height: 100%;
+	}
+	.mac-title{
+		width: 97% !important;
+	}
+}
+
+.footer{
+	margin-bottom: 10px;
 }
