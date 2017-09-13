@@ -1,6 +1,6 @@
 $(document).ready(() => {
 	console.log("loaded");
-	console.log("1234");
+	console.log("12344");
 	$(".header-navigation-item-action").click(function (event) {
         event.preventDefault();
         var id  = $(this).attr('href');
